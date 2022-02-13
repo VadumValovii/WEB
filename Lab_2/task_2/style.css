@@ -1,0 +1,67 @@
+table {
+    border: solid thick;
+    border-collapse: collapse;
+    font-family: Calibri, serif;
+    font-size: smaller;
+    width: 25%;
+}
+
+table th  {
+    border: solid thick;
+}
+
+table td {
+    border: solid thin;
+}
+table .firstWeek, table .secondWeek {
+    width: 1px;
+}
+
+table .firstLecture, table .secondLecture {
+    white-space: pre-wrap;
+}
+
+table .firstWeek, table .firstLecture {
+    border-top: solid thin;
+    border-bottom: dotted thin;
+}
+
+table .secondWeek, table .secondLecture {
+    border-top: dotted thin;
+    border-bottom: solid thin;
+}
+
+table #groupName {
+    font-size: medium;
+    border-top: solid thick;
+    border-right: solid thin;
+}
+
+table #curatorName {
+    border: solid thin;
+}
+table .rightHeader {
+    background-color: rgb(226, 239, 218);
+    border-bottom: solid thick;
+}
+
+table .leftHeader, table .day, table .lecture, table .firstWeek, table .secondWeek {
+    background-color: rgb(217, 225, 242);
+}
+
+table .day {
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    width: 0;
+}
+
+table .lecture {
+    border: solid thin;
+    width: 0;
+}
+
+table .auditoria {
+    text-align: center;
+    border-style: solid dashed;
+}
+
