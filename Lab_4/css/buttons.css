@@ -1,0 +1,30 @@
+.buttonContainer {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: block;
+    margin-left: 10%;
+}
+
+.editButton, .deleteButton {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    height: 35px;
+}
+
+.editButton:hover, .deleteButton:hover {
+    box-shadow: 0 0 4px;
+}
+
+.editButton {
+    border: solid rgb(0, 144, 219) 2px;
+    color: rgb(0, 144, 219);
+    width: 80px;
+}
+
+.deleteButton {
+    border: solid rgb(219, 0, 0) 2px;
+    color: rgb(219, 0, 0);
+    margin-left: 5%;
+    width: 95px;
+}

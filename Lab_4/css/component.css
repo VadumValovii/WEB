@@ -1,0 +1,29 @@
+.componentContainer {
+    border: solid rgb(224, 224, 224) 2px;
+    background-color: rgb(242, 242, 242);
+    border-radius: 15px;
+    width: 240px;
+    display: block;
+    font-family: Calibri, serif;
+}
+
+.componentImage {
+    width: 230px;
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.componentTitle, .componentSpecification {
+    text-align: center;
+    font-size: smaller;
+}
+
+.componentTitle {
+    font-weight: bold;
+    color: #323232;
+}
+
+.componentSpecification {
+    color: #3e3e3e
+}
